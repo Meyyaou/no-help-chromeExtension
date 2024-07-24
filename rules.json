@@ -1,0 +1,17 @@
+{
+    "rules": [
+      {
+        "id": 1,
+        "priority": 1,
+        "action": {
+          "type": "redirect",
+          "redirect": { "url": "https://www.youtube.com" }
+        },
+        "condition": {
+          "urlFilter": "https://chat.openai.com/*",
+          "resourceTypes": ["main_frame"]
+        }
+      }
+    ]
+  }
+  
