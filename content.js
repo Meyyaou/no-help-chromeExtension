@@ -5,7 +5,7 @@
 /*STEP3: redirect to our website */
    
 const targetUrl ="https://chatgpt.com";
-const redirectUrl=chrome.runtime.getURL("hey.html");
+const redirectUrl=chrome.runtime.getURL("home.html");
 if (window.location.href.startsWith(targetUrl)){
   window.location.replace(redirectUrl);
 }
