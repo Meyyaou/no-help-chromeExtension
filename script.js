@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async()=>{
   if (tab) {
     document.getElementById('urlDisplay').textContent = tab.url;
     if(tab=='https://chatgpt.com/'){
-      console.log("chztgpt detected!")
+      console.log("chatgpt detected!")
     }
      } else {
     document.getElementById('urlDisplay').textContent = 'No active tab found';
