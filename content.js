@@ -1,6 +1,6 @@
 /**declarativeNetRequest might be best approach */
 
-//const redUrl = document.getElementById('urlDisplay')
+/*STEP1: recuperer l'url of current website */
 /*STEP2: verify if it's chat.openai.com maybe block the http res? */
 /*STEP3: redirect to our website */
    

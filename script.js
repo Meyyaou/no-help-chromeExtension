@@ -1,5 +1,4 @@
-/*STEP1: recuperer l'url of current website */
-
+/*
 document.addEventListener('DOMContentLoaded', async()=>{
   let queryOptions = { active: true, lastFocusedWindow: true };
   let [tab] = await chrome.tabs.query(queryOptions);
@@ -13,3 +12,4 @@ document.addEventListener('DOMContentLoaded', async()=>{
     document.getElementById('urlDisplay').textContent = 'No active tab found';
   }
 });
+*/
