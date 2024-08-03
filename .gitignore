@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Chrome extension
+*.crx
+*.pem
